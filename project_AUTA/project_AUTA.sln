@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "project_AUTA", "project_AUTA\project_AUTA.dtproj", "{BF52C2C4-5BD0-4AE6-8E0A-881AC90BBBB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF52C2C4-5BD0-4AE6-8E0A-881AC90BBBB7}.Development|Default.ActiveCfg = Development
+		{BF52C2C4-5BD0-4AE6-8E0A-881AC90BBBB7}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3206D851-928E-4834-896B-4FF02EE7DEE8}
+	EndGlobalSection
+EndGlobal

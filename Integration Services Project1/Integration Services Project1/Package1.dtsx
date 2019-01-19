@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="1/19/2019 10:42:35 AM"
@@ -11,9 +11,47 @@
   DTS:LocaleID="1045"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionGUID="{0C2D0CD2-2EA5-433F-81F6-5E44FED11100}">
+  DTS:VersionBuild="1"
+  DTS:VersionGUID="{71B8DDAE-0B9B-40F5-A498-4462C3372E57}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
-  <DTS:Executables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Analysis Services Processing Task"
+      DTS:CreationName="Microsoft.DTSProcessingTask"
+      DTS:Description="Analysis Services Processing Task"
+      DTS:DTSID="{22241B1E-293C-4386-81D0-51B879615C1A}"
+      DTS:ExecutableType="Microsoft.DTSProcessingTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Analysis Services Processing Task"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ASProcessingData
+          ConnectionName=""
+          ProcessingCommands="" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="237,42"
+          Id="Package\Analysis Services Processing Task"
+          TopLeft="128,93" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
